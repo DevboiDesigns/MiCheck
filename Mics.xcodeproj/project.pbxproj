@@ -7,19 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6811B118258FEEDE005B15C0 /* MicRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B117258FEEDE005B15C0 /* MicRowView.swift */; };
+		6811B11B258FF455005B15C0 /* MicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B11A258FF455005B15C0 /* MicDetailView.swift */; };
+		6811B11E25900351005B15C0 /* MicHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B11D25900351005B15C0 /* MicHeaderView.swift */; };
+		6811B12125900640005B15C0 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B12025900640005B15C0 /* SourceLinkView.swift */; };
+		6811B1242590092C005B15C0 /* MicBestUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B1232590092C005B15C0 /* MicBestUseView.swift */; };
+		6811B12725901350005B15C0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B12625901350005B15C0 /* SettingsView.swift */; };
+		6811B12A25901C3F005B15C0 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B12925901C3F005B15C0 /* SettingsLabelView.swift */; };
+		6811B12D25902313005B15C0 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6811B12C25902313005B15C0 /* SettingsRowView.swift */; };
 		68A69565258EE29B00208350 /* MicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A69564258EE29B00208350 /* MicsApp.swift */; };
 		68A69567258EE29B00208350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A69566258EE29B00208350 /* ContentView.swift */; };
 		68A69569258EE29E00208350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A69568258EE29E00208350 /* Assets.xcassets */; };
 		68A6956C258EE29E00208350 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68A6956B258EE29E00208350 /* Preview Assets.xcassets */; };
+		68A69578258EE3B700208350 /* MicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A69577258EE3B700208350 /* MicCardView.swift */; };
+		68A6957C258EE41000208350 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6957B258EE41000208350 /* StartButtonView.swift */; };
+		68A6957F258EE47E00208350 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6957E258EE47E00208350 /* OnboardingView.swift */; };
+		68A6959B258F11D800208350 /* MicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6959A258F11D800208350 /* MicData.swift */; };
+		68A695A0258F120900208350 /* MicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A6959F258F120900208350 /* MicModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6811B117258FEEDE005B15C0 /* MicRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicRowView.swift; sourceTree = "<group>"; };
+		6811B11A258FF455005B15C0 /* MicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicDetailView.swift; sourceTree = "<group>"; };
+		6811B11D25900351005B15C0 /* MicHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicHeaderView.swift; sourceTree = "<group>"; };
+		6811B12025900640005B15C0 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		6811B1232590092C005B15C0 /* MicBestUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicBestUseView.swift; sourceTree = "<group>"; };
+		6811B12625901350005B15C0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6811B12925901C3F005B15C0 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		6811B12C25902313005B15C0 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		68A69561258EE29B00208350 /* Mics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A69564258EE29B00208350 /* MicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicsApp.swift; sourceTree = "<group>"; };
 		68A69566258EE29B00208350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68A69568258EE29E00208350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68A6956B258EE29E00208350 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68A6956D258EE29E00208350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A69577258EE3B700208350 /* MicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicCardView.swift; sourceTree = "<group>"; };
+		68A6957B258EE41000208350 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		68A6957E258EE47E00208350 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		68A6959A258F11D800208350 /* MicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicData.swift; sourceTree = "<group>"; };
+		68A6959F258F120900208350 /* MicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +78,10 @@
 		68A69563258EE29B00208350 /* Mics */ = {
 			isa = PBXGroup;
 			children = (
-				68A69564258EE29B00208350 /* MicsApp.swift */,
-				68A69566258EE29B00208350 /* ContentView.swift */,
+				68A69574258EE36800208350 /* App */,
+				68A69576258EE3A100208350 /* View */,
+				68A6959E258F11FA00208350 /* Model */,
+				68A69599258F11B800208350 /* Data */,
 				68A69568258EE29E00208350 /* Assets.xcassets */,
 				68A6956D258EE29E00208350 /* Info.plist */,
 				68A6956A258EE29E00208350 /* Preview Content */,
@@ -67,6 +95,49 @@
 				68A6956B258EE29E00208350 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68A69574258EE36800208350 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				68A69564258EE29B00208350 /* MicsApp.swift */,
+				68A69566258EE29B00208350 /* ContentView.swift */,
+				68A6957E258EE47E00208350 /* OnboardingView.swift */,
+				6811B11A258FF455005B15C0 /* MicDetailView.swift */,
+				6811B12625901350005B15C0 /* SettingsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		68A69576258EE3A100208350 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68A69577258EE3B700208350 /* MicCardView.swift */,
+				68A6957B258EE41000208350 /* StartButtonView.swift */,
+				6811B117258FEEDE005B15C0 /* MicRowView.swift */,
+				6811B11D25900351005B15C0 /* MicHeaderView.swift */,
+				6811B12025900640005B15C0 /* SourceLinkView.swift */,
+				6811B1232590092C005B15C0 /* MicBestUseView.swift */,
+				6811B12925901C3F005B15C0 /* SettingsLabelView.swift */,
+				6811B12C25902313005B15C0 /* SettingsRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68A69599258F11B800208350 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				68A6959A258F11D800208350 /* MicData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		68A6959E258F11FA00208350 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68A6959F258F120900208350 /* MicModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +210,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A69567258EE29B00208350 /* ContentView.swift in Sources */,
+				6811B12125900640005B15C0 /* SourceLinkView.swift in Sources */,
+				6811B12D25902313005B15C0 /* SettingsRowView.swift in Sources */,
+				68A6957C258EE41000208350 /* StartButtonView.swift in Sources */,
+				68A69578258EE3B700208350 /* MicCardView.swift in Sources */,
+				68A6959B258F11D800208350 /* MicData.swift in Sources */,
+				68A6957F258EE47E00208350 /* OnboardingView.swift in Sources */,
+				6811B1242590092C005B15C0 /* MicBestUseView.swift in Sources */,
+				6811B11E25900351005B15C0 /* MicHeaderView.swift in Sources */,
+				6811B11B258FF455005B15C0 /* MicDetailView.swift in Sources */,
+				68A695A0258F120900208350 /* MicModel.swift in Sources */,
+				6811B12A25901C3F005B15C0 /* SettingsLabelView.swift in Sources */,
 				68A69565258EE29B00208350 /* MicsApp.swift in Sources */,
+				6811B118258FEEDE005B15C0 /* MicRowView.swift in Sources */,
+				6811B12725901350005B15C0 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
