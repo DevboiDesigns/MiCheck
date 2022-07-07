@@ -48,7 +48,7 @@ struct SettingsRowView_Previews: PreviewProvider {
             SettingsRowView(name: "Developer", content: "Christopher Hicks")
                 .previewLayout(.fixed(width: 375, height: 60))
                 .padding()
-            SettingsRowView(name: "Website", linkLabel: "Omboi Music", linkDestination: "omboiofficial.com")
+            SettingsRowView(name: "GitHub", linkLabel: "Devboi Designs", linkDestination: "github.com/DevboiDesigns")
                 .preferredColorScheme(.dark)
                 .previewLayout(.fixed(width: 375, height: 60))
                 .padding()

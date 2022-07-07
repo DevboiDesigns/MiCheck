@@ -89,11 +89,11 @@ struct SettingsView: View {
                     GroupBox(label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
                     ){
                        SettingsRowView(name: "Developer", content: "Christopher Hicks")
-                       SettingsRowView(name: "Designer", content: "Devboi")
+                       SettingsRowView(name: "Designer", content: "Devboi Designs")
                         SettingsRowView(name: "Compatibility", content: "iOS 15")
-                        SettingsRowView(name: "Website", linkLabel: "Omboi Music", linkDestination: "omboiofficial.com")
-                        SettingsRowView(name: "Instagram", linkLabel: "@devbo.i", linkDestination: "instagram.com/devbo.i/?hl=en")
-                        SettingsRowView(name: "Twitter", linkLabel: "@omboi.official", linkDestination: "twitter.com/omboi_official")
+                        SettingsRowView(name: "GitHub", linkLabel: "Devboi Designs", linkDestination: "github.com/DevboiDesigns")
+                        SettingsRowView(name: "Instagram", linkLabel: "infinity.christopher", linkDestination: "instagram.com/infinity.christopher/")
+                        SettingsRowView(name: "Upwork", linkLabel: "Hire Me", linkDestination: "upwork.com/freelancers/devboidesigns")
                         
                     }
                     
