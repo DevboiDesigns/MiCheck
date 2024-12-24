@@ -356,12 +356,14 @@
 				DEVELOPMENT_TEAM = B9GKQ3WWHT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Mics/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MicCheck;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = co.omboiofficial.Mics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -379,12 +381,14 @@
 				DEVELOPMENT_TEAM = B9GKQ3WWHT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Mics/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MicCheck;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = co.omboiofficial.Mics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
