@@ -9,20 +9,15 @@ import SwiftUI
 
 struct SettingsRowView: View {
     //MARK: - PROPERTIES
-    
     var name: String
     var content: String? = nil
     var linkLabel: String? = nil
     var linkDestination: String? = nil
     
     //MARK: - BODY
-    
-    
     var body: some View {
         VStack {
             Divider().padding(.vertical, 4)
-            
-            
             HStack {
                 Text(name).foregroundColor(Color.gray)
                 Spacer()
@@ -40,18 +35,18 @@ struct SettingsRowView: View {
     }
 }
 
-    //MARK: - PREVIEW
 
-struct SettingsRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            SettingsRowView(name: "Developer", content: "Christopher Hicks")
-                .previewLayout(.fixed(width: 375, height: 60))
-                .padding()
-            SettingsRowView(name: "GitHub", linkLabel: "Devboi Designs", linkDestination: "github.com/DevboiDesigns")
-                .preferredColorScheme(.dark)
-                .previewLayout(.fixed(width: 375, height: 60))
-                .padding()
-        }
-    }
-}
+//MARK: - PREVIEW
+//struct SettingsRowView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Group {
+//            SettingsRowView(name: "Developer", content: "Christopher Hicks")
+//                .previewLayout(.fixed(width: 375, height: 60))
+//                .padding()
+//            SettingsRowView(name: "GitHub", linkLabel: "Devboi Designs", linkDestination: "github.com/DevboiDesigns")
+//                .preferredColorScheme(.dark)
+//                .previewLayout(.fixed(width: 375, height: 60))
+//                .padding()
+//        }
+//    }
+//}

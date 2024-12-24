@@ -9,25 +9,19 @@ import SwiftUI
 
 struct MicCardView: View {
     //MARK: - PROPERTIES
-    
     var mic: Mic
-
     @State private var isAnimating: Bool = false
     
     //MARK: - BODY
-    
     var body: some View {
         ZStack {
             VStack(spacing: 20) {
-                
                 //MIC: IMAGE
                 Image(mic.image)
                     .resizable()
                     .scaledToFit()
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 8, x: 6, y: 8)
                     .scaleEffect(isAnimating ? 1.0 : 0.6)
-                
-                
                 //MIC: TITLE
                 Text(mic.title)
                     .foregroundColor(Color.white)
@@ -58,9 +52,9 @@ struct MicCardView: View {
     }
 }
 
-struct MicCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        MicCardView(mic: micsData[0])
-            .previewLayout(.fixed(width: 320, height: 640))
-    }
-}
+//struct MicCardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MicCardView(mic: micsData[0])
+//            .previewLayout(.fixed(width: 320, height: 640))
+//    }
+//}

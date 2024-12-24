@@ -9,14 +9,10 @@ import SwiftUI
 
 struct MicBestUseView: View {
     //MARK: - PROPERTIES
-    
     var mic: Mic
-    let bestUsed: [String] = [
-        "" ,"", "", "", ""]
+    let bestUsed: [String] = ["" ,"", "", "", ""]
     
     //MARK: - BODY
-    
-    
     var body: some View {
         GroupBox() {
             DisclosureGroup("Mic Check Recommendations \(Image(systemName: "mic"))") {
@@ -31,7 +27,6 @@ struct MicBestUseView: View {
                         .font(Font.system(.body).bold())
                         
                         Spacer(minLength: 25)
-                        
                         Text(mic.bestUsed[item])
                             .multilineTextAlignment(.trailing)
                     }
@@ -42,13 +37,13 @@ struct MicBestUseView: View {
     }
 }
 
-    //MARK: - PREVIEW
 
-struct MicBestUseView_Previews: PreviewProvider {
-    static var previews: some View {
-        MicBestUseView(mic: micsData[0])
-            .preferredColorScheme(.dark)
-            .previewLayout(.fixed(width: 375, height: 480))
-            .padding()
-    }
-}
+//MARK: - PREVIEW
+//struct MicBestUseView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MicBestUseView(mic: micsData[0])
+//            .preferredColorScheme(.dark)
+//            .previewLayout(.fixed(width: 375, height: 480))
+//            .padding()
+//    }
+//}

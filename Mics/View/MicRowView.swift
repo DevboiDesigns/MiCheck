@@ -9,11 +9,9 @@ import SwiftUI
 
 struct MicRowView: View {
     //MARK: - PROPPERTIES
-    
     var mic: Mic
     
     //MARK: - BODY
-    
     var body: some View {
         HStack {
             Image(mic.image)
@@ -38,11 +36,12 @@ struct MicRowView: View {
         }//: HSTACK
     }
 }
-    //MARK: - PREVIEW
-struct MicRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        MicRowView(mic: micsData[0])
-            .previewLayout(.sizeThatFits)
-            .padding()
-    }
-}
+
+//MARK: - PREVIEW
+//struct MicRowView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MicRowView(mic: micsData[0])
+//            .previewLayout(.sizeThatFits)
+//            .padding()
+//    }
+//}

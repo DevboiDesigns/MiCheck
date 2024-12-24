@@ -9,13 +9,10 @@ import SwiftUI
 
 struct SettingsLabelView: View {
     //MARK: - PROPERTIES
-    
     var labelText: String
     var labelImage: String
     
     //MARK: - BODY
-    
-    
     var body: some View {
         HStack {
             Text(labelText.uppercased()).fontWeight(.bold)
@@ -25,12 +22,11 @@ struct SettingsLabelView: View {
     }
 }
 
-    //MARK: - PREVIEW
-
-struct SettingsLabelView_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingsLabelView(labelText: "Microphones", labelImage: "info.circle")
-            .previewLayout(.sizeThatFits)
-            .padding()
-    }
-}
+//MARK: - PREVIEW
+//struct SettingsLabelView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SettingsLabelView(labelText: "Microphones", labelImage: "info.circle")
+//            .previewLayout(.sizeThatFits)
+//            .padding()
+//    }
+//}

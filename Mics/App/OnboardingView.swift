@@ -9,9 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     //MARK: - PROPERTIES
-    
     var mic: [Mic] = micsData
-    
     //MARK: - BODY
     
     var body: some View {
@@ -26,11 +24,11 @@ struct OnboardingView: View {
         
     }
 }
-    
-    //MARK: - PREVIEW
 
-struct OnboardingView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardingView(mic: micsData)
-    }
-}
+//MARK: - PREVIEW
+
+//struct OnboardingView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        OnboardingView(mic: micsData)
+//    }
+//}

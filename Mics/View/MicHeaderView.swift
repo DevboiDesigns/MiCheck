@@ -9,13 +9,10 @@ import SwiftUI
 
 struct MicHeaderView: View {
     //MARK: - PROPERTIES
-    
     var mic: Mic
-    
     @State private var isAnimatingImage: Bool = false
     
     //MARK: - BODY
-    
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: mic.gradientColors), startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -35,12 +32,11 @@ struct MicHeaderView: View {
     }
 }
 
-    //MARK: - PREVIEW
-
-struct MicHeaderView_Previews: PreviewProvider {
-    static var previews: some View {
-        MicHeaderView(mic: micsData[0])
-            .previewLayout(.fixed(width: 375, height: 440))
-    }
-}
-
+//MARK: - PREVIEW
+//struct MicHeaderView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MicHeaderView(mic: micsData[0])
+//            .previewLayout(.fixed(width: 375, height: 440))
+//    }
+//}
+//

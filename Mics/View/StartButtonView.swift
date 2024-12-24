@@ -9,7 +9,6 @@ import SwiftUI
 
 struct StartButtonView: View {
     //MARK: - BODY
-    
     @AppStorage("isOnboarding") var isOnboarding: Bool?
     
     //MARK: - PROPERTIES
@@ -33,12 +32,11 @@ struct StartButtonView: View {
     }
 }
 
-    //MARK: - VIEW
-
-struct StartButtonView_Previews: PreviewProvider {
-    static var previews: some View {
-        StartButtonView()
-            .preferredColorScheme(.dark)
-            .previewLayout(.sizeThatFits)
-    }
-}
+//MARK: - VIEW
+//struct StartButtonView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        StartButtonView()
+//            .preferredColorScheme(.dark)
+//            .previewLayout(.sizeThatFits)
+//    }
+//}

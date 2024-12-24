@@ -9,24 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     //MARK: - PROPERTIES
-    
     @State private var isShowingSettings: Bool = false
-    
     var mic: [Mic] = micsData
     
     //MARK: - BODY
-    
     var body: some View {
         NavigationView {
             List {
                 ForEach(mic) { item in
                     NavigationLink(
                         destination: MicDetailView(mic: item)) {
-                        MicRowView(mic: item)
-                            .padding(.vertical, 10)
-                    }
-                    
-                    
+                            MicRowView(mic: item)
+                                .padding(.vertical, 10)
+                        }
                 }
             }
             .navigationTitle("Microphones")
@@ -35,19 +30,19 @@ struct ContentView: View {
             }) {
                 Image(systemName: "slider.horizontal.3")
             }//: BUTTON
-            .sheet(isPresented: $isShowingSettings) {
-                SettingsView()
-            }
-        )
-    }//: Navigation
+                .sheet(isPresented: $isShowingSettings) {
+                    SettingsView()
+                }
+            )
+        }//: Navigation
         .navigationViewStyle(StackNavigationViewStyle())
-  }
-    
-}
-    //MARK: - PREVIEW
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(mic: micsData)
     }
 }
+
+
+//MARK: - PREVIEW
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView(mic: micsData)
+//    }
+//}
